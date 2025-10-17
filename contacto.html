@@ -11,6 +11,41 @@
         <h1>Contactame</h1>
         <p>Completa el siguiente formulario para ponerte en contacto conmigo</p>
     </header>
+
+    <main>
+        <!--Aqui comenzare con los Formularios con el <form> -->
+
+            <form action="#" method="get">
+                <label for="nombre">Nombre Completo:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required>
+                 <br><br>
+
+                <label for="email">Correo electronico:</label><br>
+                <input type="email" id="correo" name="correo" placeholder="Tu correo@ejemplo.com" required>
+                <br><br>
+
+                <label for="asunto">Asunto:</label><br>
+                <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje" required>
+                <br><br>
+
+                <!--Campo del mensaje diferente-->
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea name="mensaje" id="mensaje" rows="5" cols="40" placeholder="Escribe tu mensaje aqui..." required></textarea>
+                <br><br>
+
+        <!--Aqui utilize los botones con button-->
+
+                <button type="submit">Enviar mensaje</button>
+                <button type="reset">Limpiar</button>
+
+            </form>
+
+    </main>
+
+    <footer>
+        <p>2025 - Desarrollado por JYCM</p>
+    </footer>
     
 </body>
 </html>
