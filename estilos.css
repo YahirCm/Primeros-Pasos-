@@ -1,0 +1,38 @@
+/* Estilo general */
+
+body {
+  background-color: beige;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/*Encabezado */
+header {
+  background-color: burlywood;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/*Seccion de presentacion y para mandar a llamar los 
+id que tenemos en HTML lo hacemos con el signo #*/
+
+#presentacion {
+  background-color: lightcoral;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Titulos */
+
+.titulo {
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+#info ul {
+  list-style: square;
+}
