@@ -33,6 +33,18 @@ id que tenemos en HTML lo hacemos con el signo #*/
   letter-spacing: 1px;
 }
 
+/*listas*/
+
 #info ul {
   list-style: square;
+  margin-left: 40px;
+}
+
+/*pie de pagina*/
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
