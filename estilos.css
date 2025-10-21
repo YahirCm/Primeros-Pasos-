@@ -1,7 +1,7 @@
 /* Estilo general */
 
 body {
-  background-color: beige;
+  background-image: url(img/Fondo.jpg);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #333;
   margin: 0;
@@ -10,7 +10,7 @@ body {
 
 /*Encabezado */
 header {
-  background-color: burlywood;
+  background-color: #3333334b;
   color: white;
   padding: 20px;
   text-align: center;
@@ -20,30 +20,41 @@ header {
 id que tenemos en HTML lo hacemos con el signo #*/
 
 #presentacion {
-  background-color: lightcoral;
+  background-color: rgba(240, 128, 128, 0.562);
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
 }
 
+p {
+  font-size: 1.2em;
+  color: lightgray;
+}
 /* Titulos */
 
 .titulo {
-  font-size: 40px;
+  font-size: 3em;
   letter-spacing: 1px;
 }
 
 /*listas*/
-
+h2 {
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  font-size: 2em;
+}
 #info ul {
   list-style: square;
   margin-left: 40px;
+  color: aliceblue;
+  font-size: 1.2em;
 }
 
 /*pie de pagina*/
 
 footer {
-  background-color: #333;
+  background-color: #33333393;
   color: white;
   text-align: center;
   padding: 10px;
