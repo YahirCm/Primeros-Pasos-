@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(to right, #4caf50, #2e7d32);
+  font-family: "Arial" sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #4CAF50;
+}
+
+h1 {
+    color: #2e7d32;
+    margin: 10px 0 5px 0;
+}
+
+h2 {
+    color: gray;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+p {
+    color: #333;
+    font-size: 14px;
+}
