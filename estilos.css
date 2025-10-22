@@ -3,9 +3,12 @@
 body {
   background-image: url(img/Fondo.jpg);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #333;
-  margin: 0;
-  padding: 0;
+
+
 }
 
 /*Encabezado */
@@ -43,6 +46,7 @@ h2 {
   padding: 20px;
   margin: 10px;
   font-size: 2em;
+  text-shadow: 2px 2px 5px rgb(211, 19, 19);
 }
 #info ul {
   list-style: square;
